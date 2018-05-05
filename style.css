@@ -1,0 +1,83 @@
+/*
+Theme Name: Bootstrapper
+Theme URI: https://nakdesignstudio.io/
+Author: NAK Design Studio
+Author URI: https://nakdesignstudio.io/
+Description: Theme built with primarily bootstrap 4.X components
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: responsive
+Text Domain: bootstrapper
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/*Table of Contents
+
+1. Bootstrap Overrides
+2. Main Page Cards
+3. Main Page Sections
+	a. Info Section
+
+
+
+
+*/
+
+
+/*-------------------------------------------------
+1. Bootstrap Overrides
+-------------------------------------------------*/
+
+.jumbotron {
+	background-color: #d7ccff;
+}
+
+.row {
+	padding-top: 30px;
+}
+
+.card-img-top {
+	height: 200px;
+	width: 100%;
+	background-size: cover;
+}
+
+
+/*-------------------------------------------------
+2. Main Page Cards
+-------------------------------------------------*/
+
+
+#card-one {
+	background-image: url('/wordpress/wp-content/themes/Bootstrapper/assets/images/flowers.jpeg');
+}
+
+#card-two {
+	background-image: url('/wordpress/wp-content/themes/Bootstrapper/assets/images/blue-flower.jpg');
+}
+
+#card-three {
+	background-image: url('/wordpress/wp-content/themes/Bootstrapper/assets/images/white-flower.jpg');
+}
+
+
+
+/*-------------------------------------------------
+3. Main Page Sections
+-------------------------------------------------*/
+
+.banner {
+	text-align: center;
+	padding: 20px;
+}
+
+/*
+a
+*/
+
+#info-banner {
+	background-color: #d7ccff;
+}
